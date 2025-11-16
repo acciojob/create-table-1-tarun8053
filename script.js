@@ -1,7 +1,6 @@
 function insert_Row() {
   const table = document.getElementById("sampleTable");
-  if (!table) return console.error("Table #sampleTable not found");
-
+ 
   // Create new row and two cells
   const newRow = document.createElement("tr");
   const cell1 = document.createElement("td");
